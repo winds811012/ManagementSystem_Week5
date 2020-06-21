@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.mainWrap {
+  width: 100%;
+  padding: 32px; }
+
+.userIcon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%; }
+
+.sideBar {
+  min-width: 296px;
+  background-color: #edf4ee;
+  padding: 32px 0; }
+  .sideBar h1 {
+    padding: 0 32px;
+    margin-bottom: 64px; }
+  .sideBar .material-icons {
+    width: 20px;
+    height: 20px; }
+  .sideBar .menu li {
+    padding: 0 32px;
+    width: 100%;
+    margin-bottom: 30px; }
+  .sideBar .menu a {
+    color: #000; }
+  .sideBar .menu li:hover {
+    border-left: solid 4px #2a8356; }
+    .sideBar .menu li:hover P {
+      color: #2a8356; }
+    .sideBar .menu li:hover span {
+      color: #2a8356; }
+  .sideBar .user {
+    padding: 0 32px; }
+    .sideBar .user li:nth-child(2) {
+      color: #0000009a;
+      font-size: 14px; }
+
+.main {
+  width: 100%; }
+
+.more {
+  color: #36a787; }
+
+.title {
+  margin-bottom: 44px; }
+  .title h2 {
+    margin-right: 46px !important; }
+  .title .toolBar {
+    width: 100%; }
+    .title .toolBar p {
+      margin-right: 7px !important; }
+  .title .iconMenu li:nth-child(1) {
+    margin-right: 26px; }
+  .title .iconMenu .material-icons {
+    color: #000; }
+
+.commentsList {
+  width: 32.52%; }
+  .commentsList li {
+    padding: 12px;
+    border: 1px solid #cdddcd;
+    font-size: 12px; }
+    .commentsList li .important {
+      font-size: 16px; }
+    .commentsList li .name {
+      color: #0000009a; }
+  .commentsList .filter {
+    margin-bottom: 6px; }
+    .commentsList .filter p {
+      margin-right: 7px !important; }
+
+.active {
+  background-color: #edf4ee; }
+
+.commentsDetail {
+  width: 66.48%; }
+  .commentsDetail .count {
+    font-size: 12px;
+    line-height: 2;
+    color: #707070; }
+  .commentsDetail .detail {
+    border: 1px solid #cdddcd; }
+  .commentsDetail .detailHead {
+    background-color: #edf4ee; }
+    .commentsDetail .detailHead .category {
+      font-size: 12px; }
+  .commentsDetail .handler button {
+    font-size: 16px;
+    padding: 8px 32px;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #2a8356;
+    border-radius: 5px; }
+  .commentsDetail .handler .reply {
+    background-color: #2a8356; }
+  .commentsDetail .handler .read {
+    color: #2a8356;
+    background-color: #ffffff; }
+
+.detailContent .time {
+  font-size: 12px;
+  color: #0000009a; }
+
+.detailContent .message {
+  font-size: 14px;
+  border-bottom: 1px solid #cdddcd;
+  color: #121212; }
+  .detailContent .message .highLight {
+    display: inline-block;
+    background-color: #edf4ee;
+    color: #2a8356;
+    padding: 0 4px;
+    text-align: center;
+    font-weight: 500; }
+
+.detailContent .attachment {
+  background-color: #edf4ee;
+  border: 1px solid #cdddcd;
+  font-size: 16px;
+  padding-left: 12px;
+  padding-right: 16px;
+  font-weight: bold;
+  margin-right: 8px; }
+  .detailContent .attachment a {
+    color: #000000; }
+
+.you .message {
+  border-bottom: unset; }
+
+.you i {
+  color: #000000; }
+
+/*# sourceMappingURL=all.css.map */

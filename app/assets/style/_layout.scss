@@ -1,0 +1,46 @@
+.sideBar {
+  min-width: 296px;
+  background-color: #edf4ee;
+  padding: 32px 0;
+  //   font-weight: bold;
+  h1 {
+    padding: 0 32px;
+    margin-bottom: 64px;
+  }
+
+  .material-icons {
+    width: 20px;
+    height: 20px;
+  }
+  .menu {
+    li {
+      padding: 0 32px;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    a {
+      color: #000;
+    }
+    li:hover {
+      border-left: solid 4px #2a8356;
+      P {
+        color: #2a8356;
+      }
+      span{
+        color: #2a8356;
+      }
+    }
+  }
+  .user {
+    padding: 0 32px;
+
+    li:nth-child(2) {
+      color: #0000009a;
+      font-size: 14px;
+    }
+  }
+}
+
+.main {
+  width: 100%;
+}
